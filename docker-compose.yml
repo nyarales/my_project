@@ -1,4 +1,4 @@
-version: '3'
+version: '3.7'
 
 services:
 ###> doctrine/doctrine-bundle ###
@@ -31,6 +31,3 @@ volumes:
   db-data:
 ###< doctrine/doctrine-bundle ###
 
-mailer:
-    image: schickling/mailcatcher
-    ports:  [1025, 1080]
