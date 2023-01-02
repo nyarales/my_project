@@ -6,7 +6,6 @@ use App\Entity\Categorie;
 use App\Entity\Peinture;
 use App\Entity\User;
 use DateTime;
-use PHPUnit\Framework\Constraint\IsTrue;
 use PHPUnit\Framework\TestCase;
 
 class PeintureUnitTest extends TestCase
